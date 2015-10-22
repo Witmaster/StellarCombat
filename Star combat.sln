@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star combat.CSharp", "Star combat.CSharp.csproj", "{94793D8F-559B-61B5-B800-710FD3899579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94793D8F-559B-61B5-B800-710FD3899579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94793D8F-559B-61B5-B800-710FD3899579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94793D8F-559B-61B5-B800-710FD3899579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94793D8F-559B-61B5-B800-710FD3899579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
