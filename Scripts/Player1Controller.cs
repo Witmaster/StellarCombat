@@ -67,6 +67,7 @@ public class Player1Controller : MonoBehaviour {
             reloadTimer = Time.time + 0.5f;
             charge -= 3;
             Instantiate(shot, P1Cannon.position, P1Cannon.rotation);
+            GetComponent<AudioSource>().Play();
         }
         //calculate gravity pull & adjust ship's velocity
         Vector3 position = GetComponent<Transform>().position;

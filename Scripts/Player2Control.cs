@@ -67,6 +67,7 @@ public class Player2Control : MonoBehaviour
             reloadTimer = Time.time + 0.5f;
             charge -= 3;
             Instantiate(shot, P2Cannon.position, P2Cannon.rotation);
+            GetComponent<AudioSource>().Play();
         }
         //calculate velocity vector & gravity pull vector
         Vector3 position = GetComponent<Transform>().position;
