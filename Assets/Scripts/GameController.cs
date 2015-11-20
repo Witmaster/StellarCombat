@@ -30,56 +30,9 @@ public class GameController : MonoBehaviour {
     {
         if(restart)
         {
-            switch (Input.inputString)
-            {
-                case "1":
-                    {
-                        gravityrate = 1;
-                        break;
-                    }
-                case "2":
-                    {
-                        gravityrate = 2;
-                        break;
-                    }
-                case "3":
-                    {
-                        gravityrate = 3;
-                        break;
-                    }
-                case "4":
-                    {
-                        gravityrate = 4;
-                        break;
-                    }
-                case "5":
-                    {
-                        gravityrate = 5;
-                        break;
-                    }
-                case "6":
-                    {
-                        gravityrate = 6;
-                        break;
-                    }
-                case "7":
-                    {
-                        gravityrate = 7;
-                        break;
-                    }
-                case "8":
-                    {
-                        gravityrate = 8;
-                        break;
-                    }
-                case "9":
-                    {
-                        gravityrate = 9;
-                        break;
-                    }
-                default: break;
-            }
-                    if (Input.GetKey(KeyCode.R))
+            if (Input.inputString.toCharArray()[0] > '0' && Input.inputString.toCharArray()[0] <= '9')
+            	gravityrate = int.Parse(Input.inputString.toCharArray()[0]);
+            if (Input.GetKey(KeyCode.R))
             {
                 player1.SetActive(true);
                 player2.SetActive(true);
